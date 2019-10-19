@@ -113,3 +113,12 @@ class SwaggerDocumentation {
 }
 ```
 Here we can select the endpoints and path we want to hide or show.
+
+To customize our documentation we annotate :
+ - controller : @Api(value = "Find players", description = "Find the list of players playing on your favorite team", tags = ["Players"])
+ - methods : @ApiOperation(value = "Find players with team id", notes = "See description below for query rules")
+ - params: @ApiParam(value = "Team id", example = "527", required = true)
+ - fields of the returned object : @ApiModelProperty(value = "Player id", example = "53")
+
+
+
