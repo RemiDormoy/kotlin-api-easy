@@ -121,4 +121,45 @@ To customize our documentation we annotate :
  - fields of the returned object : @ApiModelProperty(value = "Player id", example = "53")
 
 
+### Step 6 : testing
+ - Unit testing is like any other kotlin project, you can use Mockito, Junit, Assertj or any other framework you like
+
+ - Integration testing :
+first you will need to import some helpers from Spring
+```
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+```
+
+Then on the repository side, you can use a helper to simulate a server response :
+
+ - bind the restTemplate you will use with :
+```
+server = MockRestServiceServer.bindTo(restTemplate).build()
+```
+ - enqueue responses and verify the calls to that mock server
+ ```
+  server.expect(MockRestRequestMatchers.requestTo(requestUri))
+             .andRespond(MockRestResponseCreators.withSuccess("yourJson", MediaType.APPLICATION_JSON))
+
+ ```
+
+
+On the controller side, you can use a helper to simulate calls on a controller mounted by Spring :
+ - build the controller with the Spring helper
+ ```
+ mockMvc = MockMvcBuilders
+             .standaloneSetup(controller)
+             .setControllerAdvice(PlayersControllerAdvice())
+             .build()
+ ```
+ - then you can call the endpoints of your controller
+ ```
+mockMvc.perform(
+            MockMvcRequestBuilders.get("/teams/123/players"))
+ ```
+
+
+
+
+
 
