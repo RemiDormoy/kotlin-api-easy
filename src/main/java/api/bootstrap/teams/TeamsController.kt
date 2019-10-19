@@ -6,10 +6,7 @@ import org.springframework.web.bind.annotation.RequestParam
 import org.springframework.web.bind.annotation.RestController
 
 @RestController
-class TeamsController {
-
-    @Autowired
-    lateinit var useCase: FindAndSortTeamsUseCase
+class TeamsController(private val useCase: FindAndSortTeamsUseCase) {
 
     @GetMapping("/teams")
     fun players(@RequestParam(value = "sort", required = false) sort: String?) = useCase.execute(sort)

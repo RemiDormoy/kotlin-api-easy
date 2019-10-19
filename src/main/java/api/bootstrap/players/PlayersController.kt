@@ -52,7 +52,7 @@ class PlayersControllerAdvice {
 
     @ExceptionHandler(TeamNotFoundException::class)
     fun invalidParams(exc: TeamNotFoundException): ResponseEntity<ApiError> {
-        return ResponseEntity.status(HttpStatus.BAD_REQUEST)
+        return ResponseEntity.status(HttpStatus.NOT_FOUND)
             .contentType(MediaType.APPLICATION_JSON)
             .body(ApiError("No team found for this id : ${exc.id}"))
 

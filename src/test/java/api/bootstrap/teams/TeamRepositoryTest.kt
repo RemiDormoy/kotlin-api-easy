@@ -26,8 +26,13 @@ class TeamRepositoryTest {
     @Test
     fun `repository should serialize request when getTeams on repository is called`() {
         // Given
-        val requestUri = UriComponentsBuilder.fromUriString("http://api.football-data.org/v2/competitions/2015/teams").build().encode().toString()
-        server.expect(MockRestRequestMatchers.requestTo(requestUri)).andRespond(MockRestResponseCreators.withSuccess("successful response", MediaType.APPLICATION_JSON))
+        val requestUri = UriComponentsBuilder
+            .fromUriString("http://api.football-data.org/v2/competitions/2015/teams")
+            .build()
+            .encode()
+            .toString()
+        server.expect(MockRestRequestMatchers.requestTo(requestUri))
+            .andRespond(MockRestResponseCreators.withSuccess("successful response", MediaType.APPLICATION_JSON))
 
         // When
         try {
