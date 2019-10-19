@@ -1,0 +1,335 @@
+{
+  "id": 528,
+  "area": {
+    "id": 2081,
+    "name": "France"
+  },
+  "activeCompetitions": [
+    {
+      "id": 2015,
+      "area": {
+        "id": 2081,
+        "name": "France"
+      },
+      "name": "Ligue 1",
+      "code": "FL1",
+      "plan": "TIER_ONE",
+      "lastUpdated": "2019-10-19T00:00:12Z"
+    },
+    {
+      "id": 2135,
+      "area": {
+        "id": 2081,
+        "name": "France"
+      },
+      "name": "Coupe de la Ligue",
+      "code": null,
+      "plan": "TIER_FOUR",
+      "lastUpdated": "2019-08-28T00:05:03Z"
+    }
+  ],
+  "name": "Dijon Football Côte d'Or",
+  "shortName": "Dijon FCO",
+  "tla": "DFC",
+  "crestUrl": "https://upload.wikimedia.org/wikipedia/en/f/f7/Dijon_FCO_logo.svg",
+  "address": "9 rue Ernest Champaux Dijon 21000",
+  "phone": "+33 (0380) 650977",
+  "website": "http://www.dfco.fr",
+  "email": "sportif.asso@dfco.fr",
+  "founded": 1936,
+  "clubColors": "Red / White",
+  "venue": "Stade Gaston Gérard",
+  "squad": [
+    {
+      "id": 2345,
+      "name": "Alfred Gomis",
+      "position": "Goalkeeper",
+      "dateOfBirth": "1993-09-05T00:00:00Z",
+      "countryOfBirth": "Senegal",
+      "nationality": "Senegal",
+      "shirtNumber": null,
+      "role": "PLAYER"
+    },
+    {
+      "id": 3827,
+      "name": "Rúnar Alex Rúnarsson",
+      "position": "Goalkeeper",
+      "dateOfBirth": "1995-02-18T00:00:00Z",
+      "countryOfBirth": "Iceland",
+      "nationality": "Iceland",
+      "shirtNumber": 1,
+      "role": "PLAYER"
+    },
+    {
+      "id": 98755,
+      "name": "Kahamba Ntumba",
+      "position": "Goalkeeper",
+      "dateOfBirth": "2001-01-12T00:00:00Z",
+      "countryOfBirth": "France",
+      "nationality": "France",
+      "shirtNumber": 30,
+      "role": "PLAYER"
+    },
+    {
+      "id": 500,
+      "name": "Mickaël Alphonse",
+      "position": "Defender",
+      "dateOfBirth": "1989-07-12T00:00:00Z",
+      "countryOfBirth": "France",
+      "nationality": "Guadeloupe",
+      "shirtNumber": 2,
+      "role": "PLAYER"
+    },
+    {
+      "id": 3697,
+      "name": "Hamza Mendyl",
+      "position": "Defender",
+      "dateOfBirth": "1997-10-21T00:00:00Z",
+      "countryOfBirth": "Morocco",
+      "nationality": "Morocco",
+      "shirtNumber": null,
+      "role": "PLAYER"
+    },
+    {
+      "id": 4449,
+      "name": "Bruno Ecuélé Manga",
+      "position": "Defender",
+      "dateOfBirth": "1988-07-16T00:00:00Z",
+      "countryOfBirth": "Gabon",
+      "nationality": "Gabon",
+      "shirtNumber": null,
+      "role": "PLAYER"
+    },
+    {
+      "id": 8557,
+      "name": "Fouad Chafik",
+      "position": "Defender",
+      "dateOfBirth": "1986-10-16T00:00:00Z",
+      "countryOfBirth": "France",
+      "nationality": "Morocco",
+      "shirtNumber": 26,
+      "role": "PLAYER"
+    },
+    {
+      "id": 8561,
+      "name": "Wesley Lautoa",
+      "position": "Defender",
+      "dateOfBirth": "1987-08-25T00:00:00Z",
+      "countryOfBirth": "France",
+      "nationality": "New Caledonia",
+      "shirtNumber": 24,
+      "role": "PLAYER"
+    },
+    {
+      "id": 45106,
+      "name": "Théo Barbet",
+      "position": "Defender",
+      "dateOfBirth": "2001-03-06T00:00:00Z",
+      "countryOfBirth": "France",
+      "nationality": "France",
+      "shirtNumber": 6,
+      "role": "PLAYER"
+    },
+    {
+      "id": 80173,
+      "name": "Senou Coulibaly",
+      "position": "Defender",
+      "dateOfBirth": "1994-09-04T00:00:00Z",
+      "countryOfBirth": "France",
+      "nationality": "France",
+      "shirtNumber": 5,
+      "role": "PLAYER"
+    },
+    {
+      "id": 81191,
+      "name": "Nayef Aguerd",
+      "position": "Defender",
+      "dateOfBirth": "1996-03-30T00:00:00Z",
+      "countryOfBirth": "Morocco",
+      "nationality": "Morocco",
+      "shirtNumber": null,
+      "role": "PLAYER"
+    },
+    {
+      "id": 1614,
+      "name": "Matheus Pereira",
+      "position": "Midfielder",
+      "dateOfBirth": "1998-02-25T00:00:00Z",
+      "countryOfBirth": "Brazil",
+      "nationality": "Brazil",
+      "shirtNumber": 10,
+      "role": "PLAYER"
+    },
+    {
+      "id": 8129,
+      "name": "Didier Ibrahim Ndong",
+      "position": "Midfielder",
+      "dateOfBirth": "1994-06-17T00:00:00Z",
+      "countryOfBirth": "Gabon",
+      "nationality": "Gabon",
+      "shirtNumber": null,
+      "role": "PLAYER"
+    },
+    {
+      "id": 8562,
+      "name": "Romain Amalfitano",
+      "position": "Midfielder",
+      "dateOfBirth": "1989-08-27T00:00:00Z",
+      "countryOfBirth": "France",
+      "nationality": "France",
+      "shirtNumber": 20,
+      "role": "PLAYER"
+    },
+    {
+      "id": 8563,
+      "name": "Jordan Marié",
+      "position": "Midfielder",
+      "dateOfBirth": "1991-09-29T00:00:00Z",
+      "countryOfBirth": "France",
+      "nationality": "France",
+      "shirtNumber": 14,
+      "role": "PLAYER"
+    },
+    {
+      "id": 8564,
+      "name": "Frédéric Sammaritano",
+      "position": "Midfielder",
+      "dateOfBirth": "1986-03-23T00:00:00Z",
+      "countryOfBirth": "France",
+      "nationality": "France",
+      "shirtNumber": 7,
+      "role": "PLAYER"
+    },
+    {
+      "id": 8565,
+      "name": "Florent Balmont",
+      "position": "Midfielder",
+      "dateOfBirth": "1980-02-02T00:00:00Z",
+      "countryOfBirth": "France",
+      "nationality": "France",
+      "shirtNumber": 15,
+      "role": "PLAYER"
+    },
+    {
+      "id": 8571,
+      "name": "Enzo Loiodice",
+      "position": "Midfielder",
+      "dateOfBirth": "2000-11-27T00:00:00Z",
+      "countryOfBirth": "France",
+      "nationality": "France",
+      "shirtNumber": 12,
+      "role": "PLAYER"
+    },
+    {
+      "id": 43707,
+      "name": "Mama Baldé",
+      "position": "Midfielder",
+      "dateOfBirth": "1995-11-06T00:00:00Z",
+      "countryOfBirth": "Guinea-Bissau",
+      "nationality": "Guinea-Bissau",
+      "shirtNumber": null,
+      "role": "PLAYER"
+    },
+    {
+      "id": 101745,
+      "name": "Bryan Soumaré",
+      "position": "Midfielder",
+      "dateOfBirth": "1999-02-11T00:00:00Z",
+      "countryOfBirth": "France",
+      "nationality": "France",
+      "shirtNumber": 8,
+      "role": "PLAYER"
+    },
+    {
+      "id": 123648,
+      "name": "Muzinga Ngonda",
+      "position": "Midfielder",
+      "dateOfBirth": "1993-12-31T00:00:00Z",
+      "countryOfBirth": "Congo DR",
+      "nationality": "Congo DR",
+      "shirtNumber": null,
+      "role": "PLAYER"
+    },
+    {
+      "id": 794,
+      "name": "Mounir Chouiar",
+      "position": "Attacker",
+      "dateOfBirth": "1999-01-23T00:00:00Z",
+      "countryOfBirth": "France",
+      "nationality": "France",
+      "shirtNumber": 21,
+      "role": "PLAYER"
+    },
+    {
+      "id": 6332,
+      "name": "Stephy Mavididi",
+      "position": "Attacker",
+      "dateOfBirth": "1998-05-31T00:00:00Z",
+      "countryOfBirth": "England",
+      "nationality": "England",
+      "shirtNumber": 9,
+      "role": "PLAYER"
+    },
+    {
+      "id": 8573,
+      "name": "Júlio Tavares",
+      "position": "Attacker",
+      "dateOfBirth": "1988-11-19T00:00:00Z",
+      "countryOfBirth": "Cape Verde Islands",
+      "nationality": "Cape Verde Islands",
+      "shirtNumber": null,
+      "role": "PLAYER"
+    },
+    {
+      "id": 8576,
+      "name": "Benjamin Jeannot",
+      "position": "Attacker",
+      "dateOfBirth": "1992-01-22T00:00:00Z",
+      "countryOfBirth": "France",
+      "nationality": "France",
+      "shirtNumber": 29,
+      "role": "PLAYER"
+    },
+    {
+      "id": 28129,
+      "name": "Jhonder Cádiz",
+      "position": "Attacker",
+      "dateOfBirth": "1995-07-29T00:00:00Z",
+      "countryOfBirth": "Venezuela",
+      "nationality": "Venezuela",
+      "shirtNumber": 19,
+      "role": "PLAYER"
+    },
+    {
+      "id": 125686,
+      "name": "Rayan Philippe",
+      "position": "Attacker",
+      "dateOfBirth": "2000-10-23T00:00:00Z",
+      "countryOfBirth": "France",
+      "nationality": "France",
+      "shirtNumber": 31,
+      "role": "PLAYER"
+    },
+    {
+      "id": 101741,
+      "name": "David Linarès",
+      "position": null,
+      "dateOfBirth": "1975-10-05T00:00:00Z",
+      "countryOfBirth": "France",
+      "nationality": "France",
+      "shirtNumber": null,
+      "role": "ASSISTANT_COACH"
+    },
+    {
+      "id": 120992,
+      "name": "Stéphane Jobard",
+      "position": null,
+      "dateOfBirth": "1971-07-22T00:00:00Z",
+      "countryOfBirth": "France",
+      "nationality": "France",
+      "shirtNumber": null,
+      "role": "COACH"
+    }
+  ],
+  "lastUpdated": "2019-10-17T02:52:35Z"
+}

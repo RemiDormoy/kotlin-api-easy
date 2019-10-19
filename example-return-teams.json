@@ -1,0 +1,404 @@
+{
+  "count": 20,
+  "filters": {},
+  "competition": {
+    "id": 2015,
+    "area": {
+      "id": 2081,
+      "name": "France"
+    },
+    "name": "Ligue 1",
+    "code": "FL1",
+    "plan": "TIER_ONE",
+    "lastUpdated": "2019-10-07T23:00:05Z"
+  },
+  "season": {
+    "id": 499,
+    "startDate": "2019-08-09",
+    "endDate": "2020-05-31",
+    "currentMatchday": 9,
+    "winner": null
+  },
+  "teams": [
+    {
+      "id": 511,
+      "area": {
+        "id": 2081,
+        "name": "France"
+      },
+      "name": "Toulouse FC",
+      "shortName": "Toulouse",
+      "tla": "TFC",
+      "crestUrl": "https://upload.wikimedia.org/wikipedia/en/8/8b/Toulouse_FC.png",
+      "address": "1 allée Gabriel Biénèsm, BP 54023 Toulouse 31028",
+      "phone": "+33 (0892) 704000",
+      "website": "http://www.tfc.info",
+      "email": null,
+      "founded": 1937,
+      "clubColors": "Violet / White",
+      "venue": "Stadium Municipal",
+      "lastUpdated": "2019-10-03T02:33:13Z"
+    },
+    {
+      "id": 512,
+      "area": {
+        "id": 2081,
+        "name": "France"
+      },
+      "name": "Stade Brestois 29",
+      "shortName": "Brest",
+      "tla": "SBR",
+      "crestUrl": "http://upload.wikimedia.org/wikipedia/de/c/cb/Stade_Brestois_29.svg",
+      "address": "Port de Plaisance, 470 bis rue Alain Colas Brest 29200",
+      "phone": "+33 (0298) 022030",
+      "website": "http://www.stade-brestois.com",
+      "email": "daniel.leroux.sb29@hotmail.fr",
+      "founded": 1903,
+      "clubColors": "White / Red",
+      "venue": "Stade Francis-Le Blé",
+      "lastUpdated": "2019-10-03T02:33:15Z"
+    },
+    {
+      "id": 516,
+      "area": {
+        "id": 2081,
+        "name": "France"
+      },
+      "name": "Olympique de Marseille",
+      "shortName": "Marseille",
+      "tla": "OM",
+      "crestUrl": "https://upload.wikimedia.org/wikipedia/fr/thumb/4/43/Logo_Olympique_de_Marseille.svg/130px-Logo_Olympique_de_Marseille.svg.png",
+      "address": "La Commanderie, 33, traverse de La Martine Marseille 13012",
+      "phone": "+33 (049) 1765609",
+      "website": "http://www.om.net",
+      "email": "om@olympiquedemarseille.com",
+      "founded": 1898,
+      "clubColors": "White / Blue",
+      "venue": "Orange Vélodrome",
+      "lastUpdated": "2019-10-03T02:33:16Z"
+    },
+    {
+      "id": 518,
+      "area": {
+        "id": 2081,
+        "name": "France"
+      },
+      "name": "Montpellier HSC",
+      "shortName": "Montpellier",
+      "tla": "MON",
+      "crestUrl": "https://upload.wikimedia.org/wikipedia/en/a/a8/Montpellier_HSC_logo.svg",
+      "address": "Domaine de Grammont CS 79041 Montpellier 34967",
+      "phone": "+33 (0467) 154600",
+      "website": "http://www.mhscfoot.com",
+      "email": "accueil@mhscfoot.com",
+      "founded": 1970,
+      "clubColors": "Blue / Orange",
+      "venue": "Stade de la Mosson",
+      "lastUpdated": "2019-10-03T02:33:17Z"
+    },
+    {
+      "id": 521,
+      "area": {
+        "id": 2081,
+        "name": "France"
+      },
+      "name": "Lille OSC",
+      "shortName": "Lille",
+      "tla": "LIL",
+      "crestUrl": "https://upload.wikimedia.org/wikipedia/en/6/6f/Lille_OSC_2018_logo.png",
+      "address": "Grand Rue 59, 780 Camphin-en-Pévèle Lille null",
+      "phone": "+33 (0892) 685672",
+      "website": "http://www.losc.fr",
+      "email": "losclillemetropole.500054@ligue59-62.fr",
+      "founded": 1944,
+      "clubColors": "White / Red",
+      "venue": "Stade Pierre-Mauroy",
+      "lastUpdated": "2019-10-03T02:33:19Z"
+    },
+    {
+      "id": 522,
+      "area": {
+        "id": 2081,
+        "name": "France"
+      },
+      "name": "OGC Nice",
+      "shortName": "Nice",
+      "tla": "NIC",
+      "crestUrl": "https://upload.wikimedia.org/wikipedia/en/2/2e/OGC_Nice_logo.svg",
+      "address": "35, avenue du Ray Nice 06100",
+      "phone": "+33 (089) 2700238",
+      "website": "http://www.ogcnice.com",
+      "email": "ogcnice.association@orange.fr",
+      "founded": 1904,
+      "clubColors": "Red / Black",
+      "venue": "Stade de Nice",
+      "lastUpdated": "2019-10-03T02:33:20Z"
+    },
+    {
+      "id": 523,
+      "area": {
+        "id": 2081,
+        "name": "France"
+      },
+      "name": "Olympique Lyonnais",
+      "shortName": "Olympique Lyon",
+      "tla": "LYO",
+      "crestUrl": "https://upload.wikimedia.org/wikipedia/de/f/f1/Olympique_Lyon.svg",
+      "address": "350 avenue Jean Jaurès Lyon 69007",
+      "phone": "+33 (0426) 296532",
+      "website": "http://www.olweb.fr",
+      "email": "olympique-lyonnais@lrafoot.org",
+      "founded": 1896,
+      "clubColors": "White / Red / Blue",
+      "venue": "Groupama Stadium",
+      "lastUpdated": "2019-10-03T02:33:22Z"
+    },
+    {
+      "id": 524,
+      "area": {
+        "id": 2081,
+        "name": "France"
+      },
+      "name": "Paris Saint-Germain FC",
+      "shortName": "PSG",
+      "tla": "PSG",
+      "crestUrl": "https://upload.wikimedia.org/wikipedia/en/a/a7/Paris_Saint-Germain_F.C..svg",
+      "address": "24, rue de Commandant Guibaud Paris 7501",
+      "phone": "+33 (0139) 733467",
+      "website": "http://www.psg.fr",
+      "email": "communaute@psg.fr",
+      "founded": 1904,
+      "clubColors": "Red / Blue / White",
+      "venue": "Parc des Princes",
+      "lastUpdated": "2019-10-03T02:33:24Z"
+    },
+    {
+      "id": 526,
+      "area": {
+        "id": 2081,
+        "name": "France"
+      },
+      "name": "FC Girondins de Bordeaux",
+      "shortName": "Bordeaux",
+      "tla": "BOR",
+      "crestUrl": "https://upload.wikimedia.org/wikipedia/de/e/ea/Girondins_Bordeaux_Logo.svg",
+      "address": "Rue Joliot-Curie, Le Haillan Bordeaux 33185",
+      "phone": "+33 (0556) 161122",
+      "website": "http://www.girondins.com",
+      "email": "cberteau@girondins.com",
+      "founded": 1881,
+      "clubColors": "Blue / White",
+      "venue": "Stade Matmut-Atlantique",
+      "lastUpdated": "2019-10-03T02:33:25Z"
+    },
+    {
+      "id": 527,
+      "area": {
+        "id": 2081,
+        "name": "France"
+      },
+      "name": "AS Saint-Étienne",
+      "shortName": "Saint-Étienne",
+      "tla": "STE",
+      "crestUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Logo_AS_Saint-%C3%89tienne.svg/130px-Logo_AS_Saint-%C3%89tienne.svg.png",
+      "address": "11 rue de Verdun L'Étrat 42580",
+      "phone": "+33 (0477) 929899",
+      "website": "http://www.asse.fr",
+      "email": "asse@lrafoot.org",
+      "founded": 1919,
+      "clubColors": "Green / White",
+      "venue": "Stade Geoffroy-Guichard",
+      "lastUpdated": "2019-10-03T02:38:24Z"
+    },
+    {
+      "id": 528,
+      "area": {
+        "id": 2081,
+        "name": "France"
+      },
+      "name": "Dijon Football Côte d'Or",
+      "shortName": "Dijon FCO",
+      "tla": "DFC",
+      "crestUrl": "https://upload.wikimedia.org/wikipedia/en/f/f7/Dijon_FCO_logo.svg",
+      "address": "9 rue Ernest Champaux Dijon 21000",
+      "phone": "+33 (0380) 650977",
+      "website": "http://www.dfco.fr",
+      "email": "sportif.asso@dfco.fr",
+      "founded": 1936,
+      "clubColors": "Red / White",
+      "venue": "Stade Gaston Gérard",
+      "lastUpdated": "2019-10-03T02:33:28Z"
+    },
+    {
+      "id": 529,
+      "area": {
+        "id": 2081,
+        "name": "France"
+      },
+      "name": "Stade Rennais FC 1901",
+      "shortName": "Stade Rennais",
+      "tla": "REN",
+      "crestUrl": "https://upload.wikimedia.org/wikipedia/en/9/9e/Stade_Rennais_FC.svg",
+      "address": "La Piverdière - Chemin de la Taupinais CS 5390 Rennes 35039",
+      "phone": "+33 (0820) 000035",
+      "website": "http://www.staderennais.com",
+      "email": "4500015@footlbf.fr",
+      "founded": 1901,
+      "clubColors": "Red / Black",
+      "venue": "Roazhon Park",
+      "lastUpdated": "2019-10-03T02:38:25Z"
+    },
+    {
+      "id": 530,
+      "area": {
+        "id": 2081,
+        "name": "France"
+      },
+      "name": "Amiens SC",
+      "shortName": "Amiens SC",
+      "tla": "ASC",
+      "crestUrl": "https://upload.wikimedia.org/wikipedia/en/f/f6/Amiens_SC_Logo.svg",
+      "address": "Stade de la Licorne Rue du Chapitre Amiens 80016",
+      "phone": "+33 (0322) 665800",
+      "website": "http://www.amiensfootball.com",
+      "email": "gilbert.morel@amiensfootball.com",
+      "founded": 1901,
+      "clubColors": "Black / White / Grey",
+      "venue": "Stade de la Licorne",
+      "lastUpdated": "2019-10-03T02:33:31Z"
+    },
+    {
+      "id": 532,
+      "area": {
+        "id": 2081,
+        "name": "France"
+      },
+      "name": "Angers SCO",
+      "shortName": "Angers SCO",
+      "tla": "ANG",
+      "crestUrl": "https://upload.wikimedia.org/wikipedia/en/d/d4/Angers_SCO_logo.svg",
+      "address": "73 boulevard Jacques Portet, BP 20212 Angers 49002",
+      "phone": "+33 (0892) 390820",
+      "website": "http://www.angers-sco.fr",
+      "email": null,
+      "founded": 1919,
+      "clubColors": "Black / White / Gold",
+      "venue": "Stade Raymond Kopa",
+      "lastUpdated": "2019-10-03T02:33:32Z"
+    },
+    {
+      "id": 543,
+      "area": {
+        "id": 2081,
+        "name": "France"
+      },
+      "name": "FC Nantes",
+      "shortName": "Nantes",
+      "tla": "NAN",
+      "crestUrl": "https://upload.wikimedia.org/wikipedia/en/e/ef/FC_Nantes_%282019%29.png",
+      "address": "Centre Sportif José Arribas, La Jonelière Nantes 44240",
+      "phone": "+33 (0892) 707937",
+      "website": "http://www.fcnantes.com",
+      "email": "contact@fcnantes.com",
+      "founded": 1943,
+      "clubColors": "Green / Yellow",
+      "venue": "Stade de la Beaujoire - Louis Fonteneau",
+      "lastUpdated": "2019-10-03T02:33:34Z"
+    },
+    {
+      "id": 545,
+      "area": {
+        "id": 2081,
+        "name": "France"
+      },
+      "name": "FC Metz",
+      "shortName": "FC Metz",
+      "tla": "FCM",
+      "crestUrl": "http://upload.wikimedia.org/wikipedia/de/b/ba/FC_Metz_Logo.svg",
+      "address": "3, allée Saint Symphonien, BP 40292 Metz 5700",
+      "phone": "+33 (0387) 667215",
+      "website": "http://www.fcmetz.com",
+      "email": "communication@fcmetz.com",
+      "founded": 1919,
+      "clubColors": "Red / Blue",
+      "venue": "Stade Saint-Symphorien",
+      "lastUpdated": "2019-10-03T02:33:36Z"
+    },
+    {
+      "id": 547,
+      "area": {
+        "id": 2081,
+        "name": "France"
+      },
+      "name": "Stade de Reims",
+      "shortName": "Stade de Reims",
+      "tla": "SDR",
+      "crestUrl": "https://upload.wikimedia.org/wikipedia/en/f/f0/Stade_de_Reims_logo.png",
+      "address": "26 rue Robert-Fulton Reims 51100",
+      "phone": "+33 (0891) 024933",
+      "website": "http://www.stade-de-reims.com",
+      "email": "contact@stade-de-reims.com",
+      "founded": 1909,
+      "clubColors": "Red / White / Cyan",
+      "venue": "Stade Auguste-Delaune II",
+      "lastUpdated": "2019-10-03T02:33:37Z"
+    },
+    {
+      "id": 548,
+      "area": {
+        "id": 2152,
+        "name": "Monaco"
+      },
+      "name": "AS Monaco FC",
+      "shortName": "Monaco",
+      "tla": "ASM",
+      "crestUrl": "https://upload.wikimedia.org/wikipedia/en/b/ba/AS_Monaco_FC.svg",
+      "address": "Avenue des Castellans Monaco 98000",
+      "phone": "+33 (377) 92057473",
+      "website": "http://www.asmonaco.com",
+      "email": null,
+      "founded": 1919,
+      "clubColors": "Red / White",
+      "venue": "Stade Louis II.",
+      "lastUpdated": "2019-10-03T02:33:39Z"
+    },
+    {
+      "id": 556,
+      "area": {
+        "id": 2081,
+        "name": "France"
+      },
+      "name": "Nîmes Olympique",
+      "shortName": "Nîmes Ol.",
+      "tla": "NÎM",
+      "crestUrl": "https://upload.wikimedia.org/wikipedia/en/d/d7/N%C3%AEmes_Olympique.png",
+      "address": "Stade des Costières 123<br>Avenue de la Bouvine Nîmes 30900",
+      "phone": "+33 (0466) 290876",
+      "website": "http://www.nimes-olympique.com",
+      "email": "nimesolympiqueassociation@wanadoo.fr",
+      "founded": 1901,
+      "clubColors": "Red / White",
+      "venue": "Stade des Costières",
+      "lastUpdated": "2019-10-03T02:33:40Z"
+    },
+    {
+      "id": 576,
+      "area": {
+        "id": 2081,
+        "name": "France"
+      },
+      "name": "RC Strasbourg Alsace",
+      "shortName": "Strasbourg",
+      "tla": "RCS",
+      "crestUrl": "https://upload.wikimedia.org/wikipedia/en/8/80/Racing_Club_de_Strasbourg_logo.svg",
+      "address": "12 Rue Extenwoerth Strasbourg 67000",
+      "phone": null,
+      "website": "http://www.rcstrasbourgalsace.fr",
+      "email": null,
+      "founded": 1906,
+      "clubColors": "Blue / White",
+      "venue": "Stade de la Meinau",
+      "lastUpdated": "2019-10-03T02:38:28Z"
+    }
+  ]
+}
