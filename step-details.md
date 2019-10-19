@@ -53,4 +53,63 @@ Finaly, in order to be able to use this repository
  ```
  - run your app and test your new endpoint
 
+### Step 3 : sort your teams
 
+ - in your `TeamsController` you can add a String parameter in the method annotated with `@GetMapping`
+ - annotate this params with `@RequestParam(value = "sort")` to tell Spring that you will use it as a url query param
+ - sort the result from the `TeamRepository` using this param with standard Kotlin (like `sortBy`)
+
+
+### Step 4 : List players from a team
+Those teams are available on http://api.football-data.org/v2/teams/{teamId} with a GET method
+and the header ('X-Auth-Token', '1d6f36da87a84ef8aa34ea2d5118d187')
+
+ - create a new controller for players
+ - add a method with an Int param for the id an specified the path as "/teams/{id}/players"
+ - annotate this param with `@PathVariable` so Spring knows he can retreive it in the url path
+ - create a PlayersRepository like in step 2 and return those players
+
+In order to add a specified error return code when team id is not found:
+ - create a `TeamNotFoundException` extending `RuntimeException`
+ - in `PlayersRepository` throw a `TeamNotFoundException` when an error occurs
+ - create a new class `PlayersControllerAdvice` and annotate it with `@ControllerAdvice` so Spring knows this class will handle errors
+ - add a method for handling `TeamNotFoundException` and specify the error code and message you want
+ ```
+ @ExceptionHandler(TeamNotFoundException::class)
+     fun invalidParams(exc: TeamNotFoundException): ResponseEntity<ApiError> {
+         return ResponseEntity.status(HttpStatus.NOT_FOUND)
+             .contentType(MediaType.APPLICATION_JSON)
+             .body("No team found for this id")
+
+     }
+ ```
+
+### Step 5 : add some documentation
+We'll here create a swagger documentation for our API and to do so, we'll need two more imports
+```
+    implementation "io.springfox:springfox-swagger2:2.9.2"
+```
+will create the endpoint documenting the API at : http://localhost:8080/v2/api-docs
+
+```
+    implementation "io.springfox:springfox-swagger-ui:2.9.2"
+```
+will create the page display the API documentation at : http://localhost:8080/swagger-ui.html
+
+We just need to add some configuration, with a new class :
+```
+@Configuration
+@EnableSwagger2
+class SwaggerDocumentation {
+
+    @Bean
+    fun config() : Docket {
+        return Docket(DocumentationType.SWAGGER_2)
+            .select()
+            .apis(RequestHandlerSelectors.any())
+            .paths(PathSelectors.any())
+            .build()
+    }
+}
+```
+Here we can select the endpoints and path we want to hide or show.
